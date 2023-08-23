@@ -11,6 +11,7 @@ export default defineConfig({
     // devtools(),
     solidPlugin(),
   ],
+  base:"/vite-test",
   server: {
     port: 3000,
   },
